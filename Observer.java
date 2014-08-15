@@ -4,6 +4,6 @@ public interface Observer{
     public Observer(){
     }
     
-    public void onNotify(){}
+    public void onNotify(Entity entity, Event event){}
     
 }
